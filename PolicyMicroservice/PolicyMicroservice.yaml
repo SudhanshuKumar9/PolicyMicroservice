@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: policyrepos
-        image: authcr.azurecr.io/policyrepos:latest
+        image: policycr.azurecr.io/policyrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
